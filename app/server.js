@@ -10,10 +10,6 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-// app.get('/', function (req, res) {
-//     res.sendFile(path.join(__dirname, "index.html"));
-//   });
-
 
 app.get('/', function (req, res) {
   res.send('Server is on');
@@ -81,5 +77,5 @@ app.get('/get-profile', function (req, res) {
 });
 
 app.listen(3000, function () {
-  console.log("app listening on port 3000!");
+  console.log("app listening on port 3000! and congratualation");
 });
